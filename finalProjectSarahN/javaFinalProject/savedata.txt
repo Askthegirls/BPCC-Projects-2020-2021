@@ -1,0 +1,1 @@
+Name: Link | Attack: 0 | Defense: 2 | Sanity: 0 | Knowledge: 0 | Speed: 0
