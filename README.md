@@ -10,6 +10,6 @@ Overview of each code
           I had to remove the third level because the file was too large to put on GitHub
           The game is a 2D platformer with 3 different enemies attacking throughout the levels
           
-"SarahJohnson" is a character creator where you create name and assign skill points to your character 
+"FinaProjectSarahN" is a character creator where you create name and assign skill points to your character 
           and you can save your character to a text file for later as well as load the character back 
           from the text file
