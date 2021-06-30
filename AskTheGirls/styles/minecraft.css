@@ -1,0 +1,123 @@
+/* Minecraft CSS */
+
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 800px;
+	background-color: white;
+	margin: 0 auto; 
+	padding: 0;
+	border: 3px solid black;
+	box-shadow: 0 9px 18px 9px;
+}
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+p {
+	background-color: black;
+}
+/* Head */
+
+header img { 
+	float: left; 
+	padding-right: 15px;  
+	padding-left: 15px;
+} 
+header h2 {
+	font-size: 230%;
+}
+header h3 {
+	font-size: 125%;
+}
+
+
+/* Navigation Bar*/
+nav {
+	background-color: black;
+	width: 110%;
+	clear: all;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+	text-align: center;
+	vertical-align: center;
+}
+nav ul li a:link { 
+    color: white; 
+}
+
+nav ul li:hover, nav ul li:focus{
+	background-color: gray;
+}
+nav ul li{
+	float: left;
+	width: 20%;
+	background-color: black;
+	vertical-align: center;
+}
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding-top: 1em;
+	vertical-align: center;
+}
+/* Bullet List */
+
+ul {
+	list-style-image: url('../images/greenbullet.jfif');
+}
+/* Main */
+main {
+	padding: 20px 25px 25px 180px;
+	width: 600px;
+}
+main h1 { 
+	text-align: center;
+	font-size: 200%;
+	margin-bottom: .5em;
+}
+main h2 {
+	font-size: 180%;
+	margin: .8em 0 .5em 0;
+	
+}
+main h3 {
+	font-size: 110%;
+	margin-bottom: .5em;
+}
+main p {
+	margin-bottom: .5em;
+	background-color: Black;
+}
+
+main ul {
+	margin-top: 0;
+}
+img {
+	float: left;
+}
+table {
+	color: white;
+	background: black;
+}
+body p {
+	background-color: black;
+}
+/* Footer */
+footer { 
+	border-top: 2px solid black;
+	padding: 15px;
+	clear: both;
+    background-image: -webkit-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: -moz-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: -o-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+} 
+footer p {
+	font-size: 90%;
+	text-align: center;
+}
